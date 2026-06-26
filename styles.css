@@ -1,0 +1,66 @@
+:root {
+  color-scheme: light;
+  --bg: #f7f8fc;
+  --card: #ffffff;
+  --text: #162033;
+  --muted: #6b7280;
+  --accent: #4f46e5;
+}
+
+body {
+  background: linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
+  color: var(--text);
+  font-family: Inter, "Segoe UI", Roboto, sans-serif;
+}
+
+.hero {
+  background: radial-gradient(circle at top left, rgba(79, 70, 229, 0.16), transparent 35%), #f8f9ff;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(79, 70, 229, 0.12);
+}
+
+.product-card {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.product-icon {
+  font-size: 2.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background: rgba(79, 70, 229, 0.1);
+}
+
+.filter-pill {
+  border: 1px solid rgba(79, 70, 229, 0.2);
+  background: white;
+  color: var(--accent);
+}
+
+.filter-pill.active {
+  background: var(--accent);
+  color: white;
+}
+
+.cart-item {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 0.8rem;
+}
+
+.cart-item .btn {
+  min-width: 2rem;
+}

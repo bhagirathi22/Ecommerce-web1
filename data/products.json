@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Aurora Headphones",
+    "category": "Audio",
+    "price": 129.99,
+    "rating": 4.8,
+    "icon": "🎧",
+    "description": "Immersive sound with wireless comfort for everyday listening."
+  },
+  {
+    "id": 2,
+    "name": "Lumen Smartwatch",
+    "category": "Wearables",
+    "price": 199.5,
+    "rating": 4.7,
+    "icon": "⌚",
+    "description": "Track your fitness and stay connected with a bright AMOLED display."
+  },
+  {
+    "id": 3,
+    "name": "Nova Laptop Stand",
+    "category": "Accessories",
+    "price": 49.99,
+    "rating": 4.5,
+    "icon": "💻",
+    "description": "Elegant aluminum stand for better airflow and posture."
+  },
+  {
+    "id": 4,
+    "name": "Orbit Camera",
+    "category": "Photography",
+    "price": 249.0,
+    "rating": 4.9,
+    "icon": "📷",
+    "description": "Capture crisp photos with advanced stabilization and smart autofocus."
+  },
+  {
+    "id": 5,
+    "name": "Pulse Speaker",
+    "category": "Audio",
+    "price": 89.0,
+    "rating": 4.4,
+    "icon": "🔊",
+    "description": "Portable speaker with deep bass and 12-hour battery life."
+  },
+  {
+    "id": 6,
+    "name": "Glow Desk Lamp",
+    "category": "Home",
+    "price": 59.0,
+    "rating": 4.6,
+    "icon": "💡",
+    "description": "Warm ambient lighting to brighten up study or work sessions."
+  }
+]
